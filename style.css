@@ -1,0 +1,369 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  font-family: "Open Sans";
+}
+body header {
+  height: 100vh;
+  background: url("images/header-background.jpg") center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body header nav {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header nav ul {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 80px;
+  font-size: 1.4em;
+  z-index: 1;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: white;
+}
+body header .black-filter {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+}
+body header .partnership-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body header .partnership-logo .westfield-logo {
+  width: 22.5%;
+  z-index: 0;
+}
+body header .partnership-logo hr {
+  width: 2px;
+  height: 250px;
+  color: white;
+  background-color: white;
+  z-index: 1;
+  margin: 30px;
+}
+body header .partnership-logo .hollister-logo {
+  width: 22.5%;
+  z-index: 0;
+}
+body header .resize {
+  height: 110px;
+}
+body .theGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  color: white;
+  background: url("images/theGame-background.png") center center;
+  background-size: cover;
+}
+body .theGame .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .theGame .title img {
+  width: 60%;
+  min-width: 400px;
+}
+body .theGame .title h2 {
+  position: absolute;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 2.3em;
+}
+body .theGame h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+body .theGame p {
+  width: 35%;
+  text-align: center;
+  font-size: 1.8em;
+}
+body .gameRules {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+body .gameRules .left {
+  background: url("images/gameRules-background.png") center center;
+  background-size: cover;
+  width: 45%;
+  height: 100%;
+}
+body .gameRules img {
+  height: 68vh;
+  margin-left: -25px;
+}
+body .gameRules .right {
+  width: 55%;
+  height: 70vh;
+  font-size: 1.7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .gameRules .right p {
+  width: 75%;
+  height: 25%;
+  margin: 0;
+}
+body .gameRules .right p:first-child {
+  margin-bottom: 20px;
+}
+body .advantages {
+  height: 100vh;
+  background: url("images/advantages-background.png") center center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .advantages .title {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  height: 160px;
+}
+body .advantages .join-box {
+  display: flex;
+  gap: 60px;
+}
+body .advantages .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  height: 200px;
+  width: 250px;
+  background-color: rgba(128, 128, 128, 0.6);
+  text-align: center;
+}
+body .advantages .box h1 {
+  font-size: 4em;
+  margin: 0;
+}
+body .advantages .box p {
+  height: 50px;
+}
+body .advantages .box div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .advantages .box h2 {
+  margin: 0;
+  text-align: left;
+}
+body .advantages .resize {
+  height: 60px;
+}
+body .advantages .black-filter {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+}
+body .social-medias {
+  background-color: #29292b;
+  display: flex;
+  justify-content: space-between;
+}
+body .social-medias .resize {
+  width: 20%;
+}
+body .social-medias .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+  padding-bottom: 60px;
+}
+body .social-medias .content h2 {
+  margin: 0;
+  color: white;
+  font-family: "Flama_condensed_light";
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+body .social-medias .content .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+body .social-medias .content .download .google_play {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 160px;
+  height: 45px;
+}
+body .social-medias .content .download .google_play img {
+  height: 30px;
+}
+body .social-medias .content .download .google_play div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+body .social-medias .content .download .google_play div p {
+  margin: 0;
+}
+body .social-medias .content .download .google_play div p:first-child {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+body .social-medias .content .download .google_play div p:last-child {
+  font-size: 19px;
+}
+body .social-medias .content .download .app_store {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #111111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 160px;
+  height: 45px;
+}
+body .social-medias .content .download .app_store i {
+  font-size: 35px;
+}
+body .social-medias .content .download .app_store div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+body .social-medias .content .download .app_store div p {
+  margin: 0;
+}
+body .social-medias .content .download .app_store div p:first-child {
+  font-size: 10px;
+}
+body .social-medias .content .download .app_store div p:last-child {
+  font-size: 19px;
+}
+body .social-medias .goToTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  font-size: 3em;
+}
+body .social-medias .goToTop a {
+  color: white;
+}
+body footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+  color: white;
+}
+body footer p {
+  margin: 0;
+}
+body footer .language {
+  display: flex;
+  gap: 10px;
+  font-family: "Flama_condensed_book";
+  font-size: 23px;
+}
+body footer .language p:first-child {
+  border-right: solid 3px gray;
+  padding-right: 10px;
+  height: 40px;
+}
+body footer .language p {
+  display: flex;
+  align-items: center;
+}
+body footer .container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+body footer .container div ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1100px;
+  font-family: "Flama_condensed_book";
+  font-size: 23px;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-left: 0;
+}
+body footer .container div .info2 {
+  color: gray;
+  display: flex;
+  gap: 60px;
+  padding-top: 20px;
+}
+body footer .container div .info2 div {
+  display: flex;
+  gap: 10px;
+}
+body footer .container div .info2 p {
+  margin: 0;
+}
+body footer .container .social_link {
+  display: flex;
+  gap: 30px;
+}
+body footer .container .social_link button {
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+body footer .container .social_link button i {
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=style.css.map */
